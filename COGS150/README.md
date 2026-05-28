@@ -5,6 +5,7 @@ I used Python's `transformers` library to observe how LLMs understand nuances in
 <img width="208" height="139" alt="image" src="https://github.com/user-attachments/assets/721339b9-4386-49c9-8046-75554a2b38a9" />
 
 Since LLMs are prediction models for language, surprisal can be explained as a model's lack of expectancy for a certain word or phrase; in other words, how "surprised" it is to see that word or phrase appear.
+It can also be thought of as the inverse of probability.
 
 As one might expect, GPT-2 was more "surprised" to see sentences with double negatives.
 
